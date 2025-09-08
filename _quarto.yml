@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "_2024/slide/"
+
+
+website:
+  title: "SSCG Informatica I anno"
+  favicon: /img/UBEP.png
+  image: /img/UBEP.png
+  site-url: https://CorradoLanera.github.io/sscg-informatica
+  repo-url: https://github.com/CorradoLanera/sscg-informatica
+  repo-actions: [edit, issue]
+  twitter-card:
+    creator: "@CorradoLanera"
+  open-graph:
+    locale: it_IT
+    site-name: "sscg-informatica"
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: textbox
+  navbar:
+    background: warning
+    logo: /img/UBEP.png
+    logo-alt: "UBEP: Unit of Biostatistics, Epidemiology, and Public Health - University of Padova (ITALY)"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Personas
+        href: personas.qmd
+      - text: Contenuti
+        href: contenuti.qmd
+      - text: Agenda
+        href: agenda.qmd
+      - text: Slide
+        href: slides.qmd
+
+  page-footer:
+    left: ''
+    center: |
+      [![](/img/unipd_logo.png){fig-alt="UniPD" width=100px}](https://www.unipd.it){.external target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;
+      [![](/img/UBEP.png){fig-alt="UBEP" width=50px}](https://www.unipd-ubep.it){.external target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;
+    right: "Copyright 2025, Corrado Lanera <[corrado.lanera@ubep.unipd.it](mailto:corrado.lanera@ubep.unipd.it)>"
+
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: superhero
+    css: styles.css
+    lang: it_IT
+    toc: true
+    toc-location: left
+    embed-resources: true
+
+
+
+affiliations:
+  - id: ubep
+    name: UBEP
+    department: Cardiac, Thoracic, Vascular Sciences, and Public Health
+    address: v. Leonardo Loredan, 18
+    city: Padova
+    region: Veneto
+    country: Italy
+    postal-code: 35137
+    url: https://www.unipd-ubep.it/
+
+
+author:
+  - name: Corrado Lanera
+    orcid: 0000-0002-0520-7428
+    email: corrado.lanera@ubep.unipd.it
+    affiliations:
+      - ref: ubep
+
+
+editor: visual
+
+
+execute:
+  freeze: auto

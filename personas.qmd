@@ -1,0 +1,39 @@
+## Persona 1: Luca Lettore
+
+::: {.panel-tabset group="a"}
+## Background
+Luca è uno specializzando in Chirurgia Generale al primo anno. È metodico e preciso, con un approccio molto analitico anche fuori dall’ambito medico. È abituato a studiare manuali e linee guida, predilige procedure standardizzate e spesso è percepito dai colleghi come “quello che vuole sempre capire il perché delle cose”.
+
+
+## Esperienza Rilevante
+Ha usato Excel durante la laurea per organizzare dati di laboratorio e semplici statistiche, ma non ha mai programmato in senso stretto. Ha familiarità con concetti come media, deviazione standard e frequenze, ma non ha mai sentito parlare di linguaggi come R.
+
+
+## I suoi bisogni (percepiti)
+Vuole strumenti per descrivere i dati dei pazienti in modo riproducibile, senza dover riscrivere tutto a mano ogni volta. Ha bisogno di capire bene la logica dietro le funzioni, perché solo così si sente sicuro nell’applicarle. Tende a fare molte domande teoriche e ha bisogno che gli esempi siano ben giustificati.
+
+
+## Considerazioni speciali
+È lento ad adottare strumenti nuovi se non ne vede la razionalità, ma una volta convinto diventa molto solido. Può aiutare a fare domande che chiariscono concetti per tutta la classe, ma rischia di rallentare il ritmo se si perde in dettagli teorici.
+
+:::
+
+## Persona 2: Sara Spermentatrice
+
+::: {.panel-tabset group="a"}
+## Background
+Sara è una specializzanda in Chirurgia Generale al primo anno. È curiosa, proattiva e sempre pronta a provare cose nuove senza paura di sbagliare. È vista dai colleghi come quella che “ci mette le mani subito” e si diverte a smanettare con strumenti digitali, anche se spesso si affida più all’intuizione che alla teoria.
+
+
+## Esperienza Rilevante
+Ha usato gestionali ospedalieri e software statistici preimpostati (SPSS, Jamovi) durante la tesi, ma non ha mai scritto codice. È abituata a fare grafici con Excel e PowerPoint. Non conosce le logiche interne di un linguaggio, ma si orienta facilmente nelle interfacce e impara rapidamente se vede un risultato visivo.
+
+
+## I suoi bisogni (percepiti)
+Vuole produrre subito grafici chiari e tabelle belle da mostrare in presentazioni e riunioni. Non è interessata subito al “come funziona sotto il cofano”, ma alla soddisfazione immediata di un output utile. Ha bisogno che gli esercizi siano brevi, pratici e che i risultati siano tangibili.
+
+
+## Considerazioni speciali
+Potrebbe annoiarsi se si insiste troppo sulla teoria senza arrivare a un risultato concreto. Al contrario, è la più motivata quando può vedere subito un grafico o una tabella clinica che ha costruito lei. Ha un effetto trainante sugli altri se si diverte e ottiene risultati, ma rischia di trascurare la precisione dei dettagli.
+
+:::

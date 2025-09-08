@@ -1,0 +1,48 @@
+---
+image: img/UBEP.png
+image-alt: "UBEP: Unit of Biostatistics, Epidemiology, and Public Health - University of Padova (ITALY)"
+image-title: "UBEP: Unit of Biostatistics, Epidemiology, and Public Health - University of Padova (ITALY)"
+
+about:
+  id: hero-heading
+  template: solana
+---
+
+## Corso di Informatica di Base
+
+**Scuola di Specializzazione in Chirurgia Generale — I anno**
+
+::: {.callout-caution appearance="simple" icon="false"}
+## Obiettivo del corso
+
+Fornire competenze **essenziali e spendibili** per gestire un dataset clinico semplice con **R/RStudio**, usando pipe e un set minimo di verbi `{dplyr}`, oltre a saper produrre **tabelle e grafici** chiari.
+:::
+
+### Risultati di apprendimento (al termine della lezione lo specializzando saprà)
+
+-   Spiegare in 2′ cos’è un **linguaggio di programmazione** e perché R è utile in clinica/ricerca.
+-   Descrivere a grandi linee **CPU, RAM, Disco, I/O** e dove “stanno” i dati durante l’analisi.
+-   Comprendere il **modello di R**: oggetti, vettori, **copy-on-modify** (no modifica in place), pipe `|>`.
+-   Importare un CSV con `{rio}` e svolgere **wrangling minimale** con `{dplyr}`: `select()`, `filter()`, `mutate()`, `pull()`.
+-   Generare **descrittive minime** (`summary()`, `table()`) e una tabella clinica con `{gtsummary}`.
+-   Creare **due grafici base** con `{ggplot2}`: barplot (con `coord_flip()`) e scatter (con eventuale `geom_line()`).
+
+## Durata del corso
+
+**2 ore e 30 minuti complessivi**, con **pausa di 10 minuti** a metà e **micro-esercizi cronometrati** (1–3′) a cadenza \~10′.
+
+## Modalità didattica (online)
+
+-   **Zoom, modalità sincrona**. Richieste: **videocamera accesa**, interazione in chat/polls, micro-esercizi **1–3′ con timer visibile**.
+-   Tutti gli esempi svolti su **RStudio Cloud** (link fornito in apertura).
+-   Nessun breakout room (non necessario in una sessione unica da 2h30′).
+
+## Prerequisiti tecnici e materiali
+
+-   Account su **RStudio Cloud** funzionante e connessione stabile.
+-   Installazione di **Zoom** (non solo browser).
+
+## Nota per gli studenti
+
+-   Il corso è **introduttivo e pratico**: l’obiettivo è saper importare, filtrare/selezionare, derivare una variabile, riassumere e **visualizzare** un dataset clinico semplice.
+-   Le funzioni base di R per il *subsetting* con `[` e `[[` saranno discusse in relazione alla loro versione più **leggibile** via `{dplyr}`, che useremo durante il corso.

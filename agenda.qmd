@@ -1,0 +1,27 @@
+## Struttura della lezione
+
+-   **\[0–5\] Presentazione (5 min)** Chi sono, regole della sessione (*camere accese*, chat/poll attivi, esercizi brevi con **cronometro a video**), obiettivi e output attesi.
+
+-   **\[5–15\] Intro informatica di base (10 min)** Linguaggio di programmazione; CPU, RAM, Disco, I/O; perché R in chirurgia. *Interazione*: **poll** (RAM serve a…?).
+
+-   **\[15–25\] Oggetti e vettori (10 min)** Vettori e tipi; operazioni vettoriali. *Esercizio (≤2′)*: creare un vettore e operare con costante.
+
+-   **\[25–35\] Copy‑on‑modify + pipe (10 min)** Differenza tra copia e modifica; pipe `|>` come scrittura leggibile. *Esercizio (≤2′)*: riscrivere un nesting con la pipe.
+
+-   **\[35–45\] Pausa (10 min)**
+
+-   **\[45–85\] Import + wrangling con `{dplyr}` (40 min)** Import con `{rio}`; `select()`, `filter()`, `mutate()`, `pull()` in pipeline. *Esercizi (≤2′ ciascuno)*:
+
+    1.  `select(età, sesso)`
+    2.  `filter(sesso == "F")`
+    3.  `mutate(BMI = peso/(altezza^2))`
+    4.  `pull(età)`
+
+-   **\[85–110\] Descrittive e tabella clinica (25 min)** `summary()`, `table()`; tabella caratteristiche con `{gtsummary}`. *Esercizio (≤3′)*: `table(sesso, outcome)` e interpretazione rapida.
+
+-   **\[110–140\] Grafici con `{ggplot2}` (30 min)** **Barplot** (categorica) con `coord_flip()`; **scatter** (continue) con facoltativo `geom_line()`. *Esercizi (≤2′ ciascuno)*:
+
+    1.  Barplot della distribuzione del sesso per outcome
+    2.  Scatter età vs tempo chirurgico per sesso (opz. linea di connessione)
+
+-   **\[140–150\] Recap + quiz finale (10 min)** 3 domande a risposta multipla (import, wrangling, grafici) via poll. Chiusura: takeaway e riferimenti per auto‑studio.

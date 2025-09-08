@@ -1,0 +1,36 @@
+Package: sscg-informatica
+Title: SSCG Informatica di base I anno
+Version: 0.0.0.9000
+Authors@R:
+    person("Corrado", "Lanera", , "corrado.lanera@ubep.unipd.it", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0520-7428"))
+Description: Materiale didattico per il corso di Informatica di base al primo anno della Scuola di Specializzazione in Chirurgia Generale - Università degli Studi di Padova.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests:
+    devtools,
+    dplyr,
+    flextable,
+    forcats,
+    ggplot2,
+    glue,
+    gtsummary,
+    haven,
+    here,
+    janitor,
+    knitr,
+    lubridate,
+    magrittr,
+    quarto,
+    readr,
+    readxl,
+    renv,
+    rio,
+    rmarkdown,
+    spelling,
+    stringr,
+    tidyr,
+    tidyverse,
+    writexl

@@ -1,0 +1,30 @@
+# I anno 2024-2025
+
+::: panel-tabset
+
+
+## Presentazione e Introduzione
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/00-presentation.html"></iframe>
+```
+[00-presentation.html](_2024/slide/00-presentation.html)
+:::
+
+## Informatica di Base
+
+## Linguaggi di Programmazione R/RStudio
+
+## Oggetti, Vettori e Operazioni Elementari
+
+## Copy-on-Modify e Pipe `|>`
+
+## Import con `{rio}` e  manipolazione con `{dplyr}`
+
+## Tabelle con `{gtsummary}`
+
+## Grafici con `{ggplot2}`
+
+## Recap e Quiz Finale
+
+:::

@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "I anno 2024-2025",
+    "section": "",
+    "text": "I anno 2024-2025\n\nPresentazione e IntroduzioneInformatica di BaseLinguaggi di Programmazione R/RStudioOggetti, Vettori e Operazioni ElementariCopy-on-Modify e Pipe |&gt;Import con {rio} e manipolazione con {dplyr}Tabelle con {gtsummary}Grafici con {ggplot2}Recap e Quiz Finale\n\n\n\n\n00-presentation.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "Scuola di Specializzazione in Chirurgia Generale — I anno\n\n\n\n\n\n\nObiettivo del corso\n\n\n\nFornire competenze essenziali e spendibili per gestire un dataset clinico semplice con R/RStudio, usando pipe e un set minimo di verbi {dplyr}, oltre a saper produrre tabelle e grafici chiari.\n\n\n\n\n\nSpiegare in 2′ cos’è un linguaggio di programmazione e perché R è utile in clinica/ricerca.\nDescrivere a grandi linee CPU, RAM, Disco, I/O e dove “stanno” i dati durante l’analisi.\nComprendere il modello di R: oggetti, vettori, copy-on-modify (no modifica in place), pipe |&gt;.\nImportare un CSV con {rio} e svolgere wrangling minimale con {dplyr}: select(), filter(), mutate(), pull().\nGenerare descrittive minime (summary(), table()) e una tabella clinica con {gtsummary}.\nCreare due grafici base con {ggplot2}: barplot (con coord_flip()) e scatter (con eventuale geom_line())."
+  },
+  {
+    "objectID": "index.html#corso-di-informatica-di-base",
+    "href": "index.html#corso-di-informatica-di-base",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "Scuola di Specializzazione in Chirurgia Generale — I anno\n\n\n\n\n\n\nObiettivo del corso\n\n\n\nFornire competenze essenziali e spendibili per gestire un dataset clinico semplice con R/RStudio, usando pipe e un set minimo di verbi {dplyr}, oltre a saper produrre tabelle e grafici chiari.\n\n\n\n\n\nSpiegare in 2′ cos’è un linguaggio di programmazione e perché R è utile in clinica/ricerca.\nDescrivere a grandi linee CPU, RAM, Disco, I/O e dove “stanno” i dati durante l’analisi.\nComprendere il modello di R: oggetti, vettori, copy-on-modify (no modifica in place), pipe |&gt;.\nImportare un CSV con {rio} e svolgere wrangling minimale con {dplyr}: select(), filter(), mutate(), pull().\nGenerare descrittive minime (summary(), table()) e una tabella clinica con {gtsummary}.\nCreare due grafici base con {ggplot2}: barplot (con coord_flip()) e scatter (con eventuale geom_line())."
+  },
+  {
+    "objectID": "index.html#durata-del-corso",
+    "href": "index.html#durata-del-corso",
+    "title": "SSCG Informatica I anno",
+    "section": "Durata del corso",
+    "text": "Durata del corso\n2 ore e 30 minuti complessivi, con pausa di 10 minuti a metà e micro-esercizi cronometrati (1–3′) a cadenza ~10′."
+  },
+  {
+    "objectID": "index.html#modalità-didattica-online",
+    "href": "index.html#modalità-didattica-online",
+    "title": "SSCG Informatica I anno",
+    "section": "Modalità didattica (online)",
+    "text": "Modalità didattica (online)\n\nZoom, modalità sincrona. Richieste: videocamera accesa, interazione in chat/polls, micro-esercizi 1–3′ con timer visibile.\nTutti gli esempi svolti su RStudio Cloud (link fornito in apertura).\nNessun breakout room (non necessario in una sessione unica da 2h30′)."
+  },
+  {
+    "objectID": "index.html#prerequisiti-tecnici-e-materiali",
+    "href": "index.html#prerequisiti-tecnici-e-materiali",
+    "title": "SSCG Informatica I anno",
+    "section": "Prerequisiti tecnici e materiali",
+    "text": "Prerequisiti tecnici e materiali\n\nAccount su RStudio Cloud funzionante e connessione stabile.\nInstallazione di Zoom (non solo browser)."
+  },
+  {
+    "objectID": "index.html#nota-per-gli-studenti",
+    "href": "index.html#nota-per-gli-studenti",
+    "title": "SSCG Informatica I anno",
+    "section": "Nota per gli studenti",
+    "text": "Nota per gli studenti\n\nIl corso è introduttivo e pratico: l’obiettivo è saper importare, filtrare/selezionare, derivare una variabile, riassumere e visualizzare un dataset clinico semplice.\nLe funzioni base di R per il subsetting con [ e [[ saranno discusse in relazione alla loro versione più leggibile via {dplyr}, che useremo durante il corso."
+  },
+  {
+    "objectID": "contenuti.html",
+    "href": "contenuti.html",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "Informatica di base per il contesto: linguaggi, CPU/RAM/Disco/I/O, perché R.\nR e RStudio: oggetti, vettori, operazioni elementari, pipe |&gt; e copy-on-modify.\nImport dati con {rio} (CSV) e wrangling minimale con {dplyr}:\n\nselect() (colonne), filter() (righe), mutate() (variabili derivate), pull() (vettore).\n\nDescrittive con funzioni base + tabella clinica con {gtsummary}.\nVisualizzazione con {ggplot2}: barplot (categoriche) e scatter (continue), introducendo coord_flip() e geom_line() quando utile."
+  },
+  {
+    "objectID": "contenuti.html#contenuti-del-corso",
+    "href": "contenuti.html#contenuti-del-corso",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "Informatica di base per il contesto: linguaggi, CPU/RAM/Disco/I/O, perché R.\nR e RStudio: oggetti, vettori, operazioni elementari, pipe |&gt; e copy-on-modify.\nImport dati con {rio} (CSV) e wrangling minimale con {dplyr}:\n\nselect() (colonne), filter() (righe), mutate() (variabili derivate), pull() (vettore).\n\nDescrittive con funzioni base + tabella clinica con {gtsummary}.\nVisualizzazione con {ggplot2}: barplot (categoriche) e scatter (continue), introducendo coord_flip() e geom_line() quando utile."
+  },
+  {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "[0–5] Presentazione (5 min) Chi sono, regole della sessione (camere accese, chat/poll attivi, esercizi brevi con cronometro a video), obiettivi e output attesi.\n[5–15] Intro informatica di base (10 min) Linguaggio di programmazione; CPU, RAM, Disco, I/O; perché R in chirurgia. Interazione: poll (RAM serve a…?).\n[15–25] Oggetti e vettori (10 min) Vettori e tipi; operazioni vettoriali. Esercizio (≤2′): creare un vettore e operare con costante.\n[25–35] Copy‑on‑modify + pipe (10 min) Differenza tra copia e modifica; pipe |&gt; come scrittura leggibile. Esercizio (≤2′): riscrivere un nesting con la pipe.\n[35–45] Pausa (10 min)\n[45–85] Import + wrangling con {dplyr} (40 min) Import con {rio}; select(), filter(), mutate(), pull() in pipeline. Esercizi (≤2′ ciascuno):\n\nselect(età, sesso)\nfilter(sesso == \"F\")\nmutate(BMI = peso/(altezza^2))\npull(età)\n\n[85–110] Descrittive e tabella clinica (25 min) summary(), table(); tabella caratteristiche con {gtsummary}. Esercizio (≤3′): table(sesso, outcome) e interpretazione rapida.\n[110–140] Grafici con {ggplot2} (30 min) Barplot (categorica) con coord_flip(); scatter (continue) con facoltativo geom_line(). Esercizi (≤2′ ciascuno):\n\nBarplot della distribuzione del sesso per outcome\nScatter età vs tempo chirurgico per sesso (opz. linea di connessione)\n\n[140–150] Recap + quiz finale (10 min) 3 domande a risposta multipla (import, wrangling, grafici) via poll. Chiusura: takeaway e riferimenti per auto‑studio."
+  },
+  {
+    "objectID": "agenda.html#struttura-della-lezione",
+    "href": "agenda.html#struttura-della-lezione",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "[0–5] Presentazione (5 min) Chi sono, regole della sessione (camere accese, chat/poll attivi, esercizi brevi con cronometro a video), obiettivi e output attesi.\n[5–15] Intro informatica di base (10 min) Linguaggio di programmazione; CPU, RAM, Disco, I/O; perché R in chirurgia. Interazione: poll (RAM serve a…?).\n[15–25] Oggetti e vettori (10 min) Vettori e tipi; operazioni vettoriali. Esercizio (≤2′): creare un vettore e operare con costante.\n[25–35] Copy‑on‑modify + pipe (10 min) Differenza tra copia e modifica; pipe |&gt; come scrittura leggibile. Esercizio (≤2′): riscrivere un nesting con la pipe.\n[35–45] Pausa (10 min)\n[45–85] Import + wrangling con {dplyr} (40 min) Import con {rio}; select(), filter(), mutate(), pull() in pipeline. Esercizi (≤2′ ciascuno):\n\nselect(età, sesso)\nfilter(sesso == \"F\")\nmutate(BMI = peso/(altezza^2))\npull(età)\n\n[85–110] Descrittive e tabella clinica (25 min) summary(), table(); tabella caratteristiche con {gtsummary}. Esercizio (≤3′): table(sesso, outcome) e interpretazione rapida.\n[110–140] Grafici con {ggplot2} (30 min) Barplot (categorica) con coord_flip(); scatter (continue) con facoltativo geom_line(). Esercizi (≤2′ ciascuno):\n\nBarplot della distribuzione del sesso per outcome\nScatter età vs tempo chirurgico per sesso (opz. linea di connessione)\n\n[140–150] Recap + quiz finale (10 min) 3 domande a risposta multipla (import, wrangling, grafici) via poll. Chiusura: takeaway e riferimenti per auto‑studio."
+  },
+  {
+    "objectID": "dev/ex-template.html",
+    "href": "dev/ex-template.html",
+    "title": "Exercise template",
+    "section": "",
+    "text": "ciao\n\n\n\n\n\n\nInstructions\n\n\n\n\n\n\n\nExerciseSolution\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "personas.html",
+    "href": "personas.html",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "BackgroundEsperienza RilevanteI suoi bisogni (percepiti)Considerazioni speciali\n\n\nLuca è uno specializzando in Chirurgia Generale al primo anno. È metodico e preciso, con un approccio molto analitico anche fuori dall’ambito medico. È abituato a studiare manuali e linee guida, predilige procedure standardizzate e spesso è percepito dai colleghi come “quello che vuole sempre capire il perché delle cose”.\n\n\nHa usato Excel durante la laurea per organizzare dati di laboratorio e semplici statistiche, ma non ha mai programmato in senso stretto. Ha familiarità con concetti come media, deviazione standard e frequenze, ma non ha mai sentito parlare di linguaggi come R.\n\n\nVuole strumenti per descrivere i dati dei pazienti in modo riproducibile, senza dover riscrivere tutto a mano ogni volta. Ha bisogno di capire bene la logica dietro le funzioni, perché solo così si sente sicuro nell’applicarle. Tende a fare molte domande teoriche e ha bisogno che gli esempi siano ben giustificati.\n\n\nÈ lento ad adottare strumenti nuovi se non ne vede la razionalità, ma una volta convinto diventa molto solido. Può aiutare a fare domande che chiariscono concetti per tutta la classe, ma rischia di rallentare il ritmo se si perde in dettagli teorici."
+  },
+  {
+    "objectID": "personas.html#persona-1-luca-lettore",
+    "href": "personas.html#persona-1-luca-lettore",
+    "title": "SSCG Informatica I anno",
+    "section": "",
+    "text": "BackgroundEsperienza RilevanteI suoi bisogni (percepiti)Considerazioni speciali\n\n\nLuca è uno specializzando in Chirurgia Generale al primo anno. È metodico e preciso, con un approccio molto analitico anche fuori dall’ambito medico. È abituato a studiare manuali e linee guida, predilige procedure standardizzate e spesso è percepito dai colleghi come “quello che vuole sempre capire il perché delle cose”.\n\n\nHa usato Excel durante la laurea per organizzare dati di laboratorio e semplici statistiche, ma non ha mai programmato in senso stretto. Ha familiarità con concetti come media, deviazione standard e frequenze, ma non ha mai sentito parlare di linguaggi come R.\n\n\nVuole strumenti per descrivere i dati dei pazienti in modo riproducibile, senza dover riscrivere tutto a mano ogni volta. Ha bisogno di capire bene la logica dietro le funzioni, perché solo così si sente sicuro nell’applicarle. Tende a fare molte domande teoriche e ha bisogno che gli esempi siano ben giustificati.\n\n\nÈ lento ad adottare strumenti nuovi se non ne vede la razionalità, ma una volta convinto diventa molto solido. Può aiutare a fare domande che chiariscono concetti per tutta la classe, ma rischia di rallentare il ritmo se si perde in dettagli teorici."
+  },
+  {
+    "objectID": "personas.html#persona-2-sara-spermentatrice",
+    "href": "personas.html#persona-2-sara-spermentatrice",
+    "title": "SSCG Informatica I anno",
+    "section": "Persona 2: Sara Spermentatrice",
+    "text": "Persona 2: Sara Spermentatrice\n\nBackgroundEsperienza RilevanteI suoi bisogni (percepiti)Considerazioni speciali\n\n\nSara è una specializzanda in Chirurgia Generale al primo anno. È curiosa, proattiva e sempre pronta a provare cose nuove senza paura di sbagliare. È vista dai colleghi come quella che “ci mette le mani subito” e si diverte a smanettare con strumenti digitali, anche se spesso si affida più all’intuizione che alla teoria.\n\n\nHa usato gestionali ospedalieri e software statistici preimpostati (SPSS, Jamovi) durante la tesi, ma non ha mai scritto codice. È abituata a fare grafici con Excel e PowerPoint. Non conosce le logiche interne di un linguaggio, ma si orienta facilmente nelle interfacce e impara rapidamente se vede un risultato visivo.\n\n\nVuole produrre subito grafici chiari e tabelle belle da mostrare in presentazioni e riunioni. Non è interessata subito al “come funziona sotto il cofano”, ma alla soddisfazione immediata di un output utile. Ha bisogno che gli esercizi siano brevi, pratici e che i risultati siano tangibili.\n\n\nPotrebbe annoiarsi se si insiste troppo sulla teoria senza arrivare a un risultato concreto. Al contrario, è la più motivata quando può vedere subito un grafico o una tabella clinica che ha costruito lei. Ha un effetto trainante sugli altri se si diverte e ottiene risultati, ma rischia di trascurare la precisione dei dettagli."
+  }
+]

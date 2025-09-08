@@ -1,0 +1,9 @@
+## Contenuti del corso
+
+* **Informatica di base** per il contesto: linguaggi, CPU/RAM/Disco/I/O, perché R.
+* **R e RStudio**: oggetti, vettori, operazioni elementari, pipe `|>` e **copy-on-modify**.
+* **Import** dati con `{rio}` (CSV) e **wrangling minimale** con `{dplyr}`:
+
+  * `select()` (colonne), `filter()` (righe), `mutate()` (variabili derivate), `pull()` (vettore).
+* **Descrittive** con funzioni base + **tabella clinica** con `{gtsummary}`.
+* **Visualizzazione** con `{ggplot2}`: barplot (categoriche) e scatter (continue), introducendo `coord_flip()` e `geom_line()` quando utile.
