@@ -1,0 +1,83 @@
+---
+title: '[Introduzione]{style="color:darkorange;"}'
+subtitle: "~5 min"
+format:
+  revealjs:
+    width:  1648 #(3/2)
+    height: 1080
+    logo: img/UBEP.png
+    footer: "SSCG Informatica di Base - I anno"
+    slide-number: true
+    history: false
+    preview-links: auto
+    code-link: true
+    chalkboard:
+      src: src/chalkboard-intro.json
+bibliography: references.bib
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(
+  echo = TRUE
+)
+library(tidyverse)
+library(countdown)
+```
+
+# Corrado Lanera
+
+::::: columns
+::: {.column width="30%"}
+![](img/profilo_CL.jpg){fig-align="center"}
+:::
+
+::: {.column width="70%"}
+- Ricercatore in Tenure Track (RTT) presso l'Università di Padova.
+
+- Responsabile del Laboratorio di Intelligenza Artificiale per le Scienze Mediche.
+
+- Rstudio [Certified Instructor](https://education.rstudio.com/trainers/people/lanera+corrado/) nel Tidyverse.
+
+- Lavoro quotidianamente con R dal 2014.
+
+- La migliore citazione: "The only way to go fast is to go well" - Robert *Uncle Bob* Martin.
+
+- Contatti:
+
+    - Mail: [corrado.lanera\@ubep.unipd.it](mailto:corrado.lanera@ubep.unipd.it)
+
+    - GitHub, Telegram, Linkedin, X/Twitter: \@CorradoLanera.
+:::
+:::::
+
+
+## Materiali didattico
+
+|  |  |
+|-------------------------|-----------------------------------------------|
+| Website (agenda, slides, and assessments): | [https://bit.ly/sscg-informatica[-website]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-website) |
+| RStudio cloud workspace: | [https://bit.ly/sscg-informatica[-rstudio]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-rstudio)[^1] |
+
+[^1]: Per iscriversi agli spazi di lavoro è necessario un account gratuito. Se non ne avete già uno, se vi unite al nostro spazio di lavoro verrete prima reindirizzati alla pagina di iscrizione. Link per iscriversi: [https://bit.ly/sscg-informatica[-registrazione]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-registrazione).
+
+
+
+## Riconoscimenti
+
+Per creare questa lezione ho esplorato, utilizzato e adattato i contenuti delle seguenti risorse:
+
+- Materiale del corso [Carpentries](https://carpentries.org/)' [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/).
+- [Carpentries](https://carpentries.org/)' [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/).
+- [Hadley Wickham](https://hadley.nz/) [Advanced R - (2e)](https://adv-r.hadley.nz)
+- [R for Data Science (2e)](https://hadley.nz/) di [Hadley Wickham](https://r4ds.hadley.nz/)
+
+Le diapositive sono state realizzate utilizzando [Posit](https://posit.co/) [Quarto](https://quarto.org/), sistema open-source di editoria scientifica e tecnica alimentato in R da [kintr](https://yihui.org/knitr/) (creato da [Yihui Xie](https://yihui.org/) ).
+
+
+### License
+
+```{=html}
+ <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://github.com/CorradoLanera/sscg-informatica">Questo lavoro</a> di <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/CorradoLanera">Corrado Lanera</a> è offerto sotto licenza <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+```

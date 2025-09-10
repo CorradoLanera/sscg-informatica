@@ -1,1 +1,1 @@
-Sitemap: https://CorradoLanera.github.io/it.spec.chir/sitemap.xml
+Sitemap: https://CorradoLanera.github.io/sscg-informatica/sitemap.xml

@@ -1,0 +1,258 @@
+---
+title: '[Introduzione]{style="color:darkorange;"}'
+subtitle: "~5 min"
+format:
+  revealjs:
+    width:  1648 #(3/2)
+    height: 1080
+    logo: img/UBEP.png
+    footer: "SSCG Informatica di Base - I anno"
+    slide-number: true
+    history: false
+    preview-links: auto
+    code-link: true
+    multiplex: true
+    chalkboard:
+      src: src/chalkboard-presentation.json
+bibliography: references.bib
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(
+  echo = TRUE
+)
+library(tidyverse)
+library(countdown)
+```
+
+# Corrado Lanera
+
+::::: columns
+::: {.column width="30%"}
+![](img/profilo_CL.jpg){fig-align="center"}
+:::
+
+::: {.column width="70%"}
+- Ricercatore in Tenure Track (RTT) presso l'Università di Padova.
+
+- Responsabile del Laboratorio di Intelligenza Artificiale per le Scienze Mediche.
+
+- Rstudio [Certified Instructor](https://education.rstudio.com/trainers/people/lanera+corrado/) nel Tidyverse.
+
+- Lavoro quotidianamente con R dal 2014.
+
+- La migliore citazione: "The only way to go fast is to go well" - Robert *Uncle Bob* Martin.
+
+- Contatti:
+
+    - Mail: [corrado.lanera\@ubep.unipd.it](mailto:corrado.lanera@ubep.unipd.it)
+
+    - GitHub, Telegram, Linkedin, X/Twitter: \@CorradoLanera.
+:::
+:::::
+
+
+## Materiali didattico
+
+|  |  |
+|-------------------------|-----------------------------------------------|
+| Website (agenda, slides, and assessments): | [https://bit.ly/sscg-informatica[-website]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-website) |
+| RStudio cloud workspace: | [https://bit.ly/sscg-informatica[-rstudio]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-rstudio)[^3] |
+
+[^3]: You need a free account to join workspaces. If you didn't have one already, joining our workspace will first redirect to the sign up page. Link to join: [https://bit.ly/sscg-informatica[-registrazione]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-registrazione).
+
+<br>
+
+
+## Slides
+
+- Dal sito web (<https://bit.ly/sscg-informatica-website>), è possibile accedere alle diapositive e navigarle al proprio ritmo.
+
+- È possibile seguire e navigare le diapositive della presentazione sul proprio telefono, tablet o laptop dal web. Quando il relatore cambia le diapositive nelle presentazioni condivise sullo schermo (master), tutti seguiranno e vedranno lo stesso contenuto sul proprio dispositivo.
+
+
+# Architettura di un computer
+
+
+# Linguaggi di programmazione
+
+
+# R/RStudio
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide1.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide2.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide3.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide4.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide5.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide6.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide7.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide8.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide9.PNG)
+
+------------------------------------------------------------------------
+
+<br>
+
+![](img/concept-map/Slide10.PNG)
+
+## R
+
+-   Un linguaggio: scriviamo il codice R in linguaggio R.
+
+    ``` r
+    two <- sum(1 + 1)
+    ```
+
+. . .
+
+-   Un motore: in grado di eseguire calcoli, analisi, grafici, report, ...
+
+    ```{r}
+    #| output-location: column
+    library(tidyverse)
+
+    mtcars |>
+      ggplot(aes(hp, mpg)) +
+      geom_point(aes(colour = cyl)) +
+      labs(
+        x = "Gross horsepower",
+        y = "Miles/(US) gallon",
+        colour = "N cylinders"
+      )
+    ```
+
+. . .
+
+-   Un interprete (che traduce il codice R avanti e indietro in codice eseguibile)
+
+    - Quando *eseguiamo* il codice in linguaggio R, l'interprete lo traduce per l'esecuzione.
+    - Quando R ha calcolato i risultati, l'interprete li traduce/stampa.
+
+    ```{r}
+    sum(1:3)
+    ```
+
+## RStudio Cloud
+
+- Un IDE RStudio completamente funzionale sul cloud.
+
+- Da utilizzare gratuitamente all'interno dell'area di lavoro del corso.
+
+- Una volta entrati nell'area di lavoro, è possibile attivare il progetto R fornito per la giornata.
+
+- L'ambiente è già pronto per voi
+
+[^5]: È necessario un account gratuito per unirsi agli spazi di lavoro. Se non ne avete già uno, l'iscrizione al nostro spazio di lavoro vi reindirizzerà prima alla pagina di iscrizione. Link per iscriversi: [https://bit.ly/ubep-rws[-rstudio-registration-only]{style="color:darkorange;"}](https://bit.ly/ubep-rws-rstudio-registration-only).
+
+![](img/posit-cloud-day1.png){.absolute top="35%" left="5%" height="50%"}
+
+## RStudio (in the cloud) \[side-by-side\]
+
+:::::::::: columns
+::: {.column width="35%"}
+IDE = Integrated Development Environment (to work with R)
+
+0.  side- and top-bar for workspaces and projects navigation.
+
+1.  Multi-tab text editor to view, modify, execute (`CTRL/CMD + ENTER`) code in script files
+
+2.  An interactive console for the R interpreter.
+
+3.  Overview of defined R objects in the current session.
+
+4.  Embedded file explorer connected to the current session R working directory.
+:::
+
+:::::::: {.column width="65%"}
+![](img/rstudio-full.png){.absolute top="10%" right="10%"}
+
+::: fragment
+![](img/rstudio-full-annoted.png){.absolute top="10%" right="10%"}
+:::
+
+::: fragment
+![](img/rstudio.png){.absolute top="20%" right="5%"}
+:::
+
+::: fragment
+![](img/rstudio-annoted.png){.absolute top="20%" right="5%"}
+:::
+
+::: fragment
+![](img/rstudio-notab.png){.absolute top="30%" right="0%"}
+:::
+
+::: fragment
+![](img/rstudio-notab-annoted.png){.absolute top="30%" right="0%"}
+:::
+::::::::
+::::::::::
+
+> (Afte registration) To connect to RStudio cloud: [https://bit.ly/ubep-rws[-rstudio]{style="color:darkorange;"}](https://bit.ly/ubep-rws-rstudio)
+
+
+
+
+## Acknowledgment
+
+To create the current lesson we explored, use, and adapt contents from the following resources:
+
+-   [Carpentries](https://carpentries.org/)' [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/) course material.
+-   [Carpentries](https://carpentries.org/)' [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/) course material.
+-   [Hadley Wickham](https://hadley.nz/)'s [Advanced R - (2e)](https://adv-r.hadley.nz)
+-   [Hadley Wickham](https://hadley.nz/)'s [R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+The slides are made using [Posit](https://posit.co/)'s [Quarto](https://quarto.org/) open-source scientific and technical publishing system powered in R by [Yihui Xie](https://yihui.org/)'s [kintr](https://yihui.org/knitr/).
+
+
+### License
+
+```{=html}
+ <p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://github.com/CorradoLanera/sscg-informatica">This work</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/CorradoLanera">Corrado Lanera</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+```

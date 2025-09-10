@@ -6,9 +6,9 @@
 ## Presentazione e Introduzione
 ::: center
 ```{=html}
-<iframe class="slide-deck" src="_2024/slide/00-presentation.html"></iframe>
+<iframe class="slide-deck" src="_2024/slide/01-intro.html"></iframe>
 ```
-[00-presentation.html](_2024/slide/00-presentation.html)
+01-intro.html](_2024/slide/01-intro.html)
 :::
 
 ## Informatica di Base
