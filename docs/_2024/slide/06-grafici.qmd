@@ -1051,6 +1051,29 @@ ggsave("epicurve.tex", plot = epicurve)
 - La funzione `ggsave` indovina il tipo di file grafico dall'estensione del nome del file richiesto.
 :::
 
+## Il Vostro turno
+
+- usando la funzione `here` e `import` di `{rio}` importate il dataset `Copenhagen_clean.xlsx` (nella cartella `data-raw`).
+- Usando il dataset appena importato, create un grafico a piacere utilizzando `{ggplot2}`.
+- usate almeno tre variabili del dataset per il grafico (x, y, colore, ...).
+- a piacimento aggiungete titoli, etichette, didascalie e un tema.
+- salvate il grafico in formato PDF e PNG utilizzando `ggsave`. (opzionale, salvarlo in una cartella `output` del progetto).
+
+
+```{r}
+#| echo: false
+countdown(
+  minutes = 3,
+  left = "25%",
+  right = "25%",
+  top = "70%",
+  bottom = 0,
+  blink_colon = TRUE,
+  play_sound = TRUE,
+  margin = "5%",
+  font_size = "4em"
+)
+```
 
 
 

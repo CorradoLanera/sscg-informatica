@@ -421,7 +421,30 @@ db |>
 ```
 
 
+## Il Vostro turno
 
+- usando la funzione `here` e `import` di `{rio}` importate il dataset `Copenhagen_clean.xlsx` (nella cartella `data-raw`).
+- usando `dplyr::select()` selezionate le colonne `age`, `sex`, `weight`, `height` e `case`.
+- usando `dplyr::filter()` selezionate le righe con `case == TRUE`.
+- usando `dplyr::mutate()` calcolate il BMI come `weight/(height^2)`.
+- usando `dplyr::pull()` estraete la colonna `BMI` e calcolate il suo valore medio (ignorando i valori mancanti).
+- fate il tutto in una pipeline unica.
+
+
+```{r}
+#| echo: false
+countdown(
+  minutes = 3,
+  left = "25%",
+  right = "25%",
+  top = "70%",
+  bottom = 0,
+  blink_colon = TRUE,
+  play_sound = TRUE,
+  margin = "5%",
+  font_size = "4em"
+)
+```
 
 ## Riconoscimenti
 

@@ -648,6 +648,28 @@ as_gt(tbl) |>
 :::
 
 
+## Il Vostro turno
+
+- usando la funzione `here` e `import` di `{rio}` importate il dataset `Copenhagen_clean.xlsx` (nella cartella `data-raw`).
+- usate la funzione `tbl_summary()` per creare una tabella riassuntiva delle variabili `età`, `sesso`, `bmi`, `outcome` stratificata per `trattamento`.
+- usate la funzione `tbl_cross()` per creare una tabella di contingenza tra `sesso` e `outcome`, calcolando le percentuali sulle righe e aggiungendo il p-value del test del chi-quadro.
+
+
+```{r}
+#| echo: false
+countdown(
+  minutes = 3,
+  left = "25%",
+  right = "25%",
+  top = "70%",
+  bottom = 0,
+  blink_colon = TRUE,
+  play_sound = TRUE,
+  margin = "5%",
+  font_size = "4em"
+)
+```
+
 
 ## Riconoscimenti
 

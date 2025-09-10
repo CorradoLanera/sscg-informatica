@@ -62,6 +62,26 @@ library(countdown)
 
 [^1]: Per iscriversi agli spazi di lavoro è necessario un account gratuito. Se non ne avete già uno, se vi unite al nostro spazio di lavoro verrete prima reindirizzati alla pagina di iscrizione. Link per iscriversi: [https://bit.ly/sscg-informatica[-registrazione]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-registrazione).
 
+## Il Vostro turno
+
+-  connettetevi a RStudio Cloud e aprite il progetto condiviso [https://bit.ly/sscg-informatica[-rstudio]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-rstudio)
+
+Se non eravate ancora iscritti, fatelo ora: [https://bit.ly/sscg-informatica[-rstudio]{style="color:darkorange;"}](https://bit.ly/sscg-informatica-rstudio)
+
+```{r}
+#| echo: false
+countdown(
+  minutes = 1,
+  left = "25%",
+  right = "25%",
+  top = "70%",
+  bottom = 0,
+  blink_colon = TRUE,
+  play_sound = TRUE,
+  margin = "5%",
+  font_size = "4em"
+)
+```
 
 
 ## Riconoscimenti

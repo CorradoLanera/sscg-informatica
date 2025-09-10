@@ -758,7 +758,28 @@ library(here)
 :::
 :::
 
+## Il Vostro turno
 
+-  Aprite il vostro progetto RStudio Cloud
+-  Create un nuovo script R (File > New File > R Script)
+-  Salvate lo script come `fondamentali.R` nella cartella di lavoro del progetto
+-  caricate i pacchetti `here`, `dplyr`, `gtsummary`, e caricateli nello script come prime righe di codice
+-  provate del codice di esempio di base come operazioni matematiche, logiche, assegnazioni, ecc.
+
+```{r}
+#| echo: false
+countdown(
+  minutes = 3,
+  left = "25%",
+  right = "25%",
+  top = "70%",
+  bottom = 0,
+  blink_colon = TRUE,
+  play_sound = TRUE,
+  margin = "5%",
+  font_size = "4em"
+)
+```
 
 ## Riconoscimenti
 
