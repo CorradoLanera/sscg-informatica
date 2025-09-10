@@ -12,7 +12,7 @@ format:
     preview-links: auto
     code-link: true
     chalkboard:
-      src: src/chalkboard-fondamentali.json
+      src: src/chalkboard-base-r.json
 bibliography: references.bib
 ---
 
