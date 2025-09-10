@@ -4829,23 +4829,18 @@ vertical-align: -.125em;
 <h2 class="anchored" data-anchor-id="struttura-della-lezione">Struttura della lezione</h2>
 <ul>
 <li><p><strong>[0–5] Presentazione (5 min)</strong> Chi sono, regole della sessione (<em>camere accese</em>, chat/poll attivi, esercizi brevi con <strong>cronometro a video</strong>), obiettivi e output attesi.</p></li>
-<li><p><strong>[5–15] Intro informatica di base (10 min)</strong> Linguaggio di programmazione; CPU, RAM, Disco, I/O; perché R in chirurgia. <em>Interazione</em>: <strong>poll</strong> (RAM serve a…?).</p></li>
-<li><p><strong>[15–25] Oggetti e vettori (10 min)</strong> Vettori e tipi; operazioni vettoriali. <em>Esercizio (≤2′)</em>: creare un vettore e operare con costante.</p></li>
-<li><p><strong>[25–35] Copy‑on‑modify + pipe (10 min)</strong> Differenza tra copia e modifica; pipe <code>|&gt;</code> come scrittura leggibile. <em>Esercizio (≤2′)</em>: riscrivere un nesting con la pipe.</p></li>
-<li><p><strong>[35–45] Pausa (10 min)</strong></p></li>
-<li><p><strong>[45–85] Import + wrangling con <code>{dplyr}</code> (40 min)</strong> Import con <code>{rio}</code>; <code>select()</code>, <code>filter()</code>, <code>mutate()</code>, <code>pull()</code> in pipeline. <em>Esercizi (≤2′ ciascuno)</em>:</p>
+<li><p><strong>[5–20] Intro informatica di base (15 min)</strong> Linguaggio di programmazione; CPU, RAM, Disco, I/O; perché R in chirurgia. <em>Interazione</em>: <strong>poll</strong> (RAM serve a…?).</p></li>
+<li><p><strong>[20–40] Strutture, vettori, pipe (20 min)</strong> Vettori e tipi; operazioni vettoriali, pipe <code>|&gt;</code> come scrittura leggibile. <em>Esercizio (≤2′)</em>: creare un vettore e operare con costante.</p></li>
+<li><p><strong>[40–50] Pausa (10 min)</strong></p></li>
+<li><p><strong>[50–80] Import + wrangling con <code>{dplyr}</code> (30 min)</strong> Import con <code>{rio}</code>; <code>select()</code>, <code>filter()</code>, <code>mutate()</code>, <code>pull()</code> in pipeline. <em>Esercizi (≤2′ ciascuno)</em>:</p>
 <ol type="1">
 <li><code>select(età, sesso)</code></li>
 <li><code>filter(sesso == &quot;F&quot;)</code></li>
 <li><code>mutate(BMI = peso/(altezza^2))</code></li>
 <li><code>pull(età)</code></li>
 </ol></li>
-<li><p><strong>[85–110] Descrittive e tabella clinica (25 min)</strong> <code>summary()</code>, <code>table()</code>; tabella caratteristiche con <code>{gtsummary}</code>. <em>Esercizio (≤3′)</em>: <code>table(sesso, outcome)</code> e interpretazione rapida.</p></li>
-<li><p><strong>[110–140] Grafici con <code>{ggplot2}</code> (30 min)</strong> <strong>Barplot</strong> (categorica) con <code>coord_flip()</code>; <strong>scatter</strong> (continue) con facoltativo <code>geom_line()</code>. <em>Esercizi (≤2′ ciascuno)</em>:</p>
-<ol type="1">
-<li>Barplot della distribuzione del sesso per outcome</li>
-<li>Scatter età vs tempo chirurgico per sesso (opz. linea di connessione)</li>
-</ol></li>
+<li><p><strong>[80–110] Descrittive e tabella clinica (30 min)</strong> <code>summary()</code>, <code>table()</code>; tabella caratteristiche con <code>{gtsummary}</code>. <em>Esercizio (≤3′)</em>: <code>table(sesso, outcome)</code> e interpretazione rapida.</p></li>
+<li><p><strong>[110–140] Grafici con <code>{ggplot2}</code> (30 min)</strong> Grammatica per grafici, in R, costruiti a <strong>layer</strong>.</p></li>
 <li><p><strong>[140–150] Recap + quiz finale (10 min)</strong> 3 domande a risposta multipla (import, wrangling, grafici) via poll. Chiusura: takeaway e riferimenti per auto‑studio.</p></li>
 </ul>
 

@@ -8,23 +8,51 @@
 ```{=html}
 <iframe class="slide-deck" src="_2024/slide/01-intro.html"></iframe>
 ```
-01-intro.html](_2024/slide/01-intro.html)
+[01-intro.html](_2024/slide/01-intro.html)
 :::
 
-## Informatica di Base
+## Strumenti fondamentali
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/02-fondamentali.html"></iframe>
+```
+[02-fondamentali.html](_2024/slide/02-fondamentali.html)
+:::
 
-## Linguaggi di Programmazione R/RStudio
 
-## Oggetti, Vettori e Operazioni Elementari
-
-## Copy-on-Modify e Pipe `|>`
+## R/RStudio - funzioni di base
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/03-base-r.html"></iframe>
+```
+[03-base-r.html](_2024/slide/03-base-r.html)
+:::
 
 ## Import con `{rio}` e  manipolazione con `{dplyr}`
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/04-manipolazione.html"></iframe>
+```
+[04-manipolazione.html](_2024/slide/04-manipolazione.html)
+:::
 
 ## Tabelle con `{gtsummary}`
 
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/05-tabelle.html"></iframe>
+```
+[05-tabelle.html](_2024/slide/05-tabelle.html)
+:::
+
 ## Grafici con `{ggplot2}`
 
-## Recap e Quiz Finale
+::: center
+```{=html}
+<iframe class="slide-deck" src="_2024/slide/06-grafici.html"></iframe>
+```
+[06-grafici.html](_2024/slide/06-grafici.html)
+:::
+
 
 :::
